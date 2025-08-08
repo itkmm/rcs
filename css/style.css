@@ -92,3 +92,30 @@ body {
             width: 40px;
             object-fit: cover;
         }
+
+        .course-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.course-content li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd; /* optional separator */
+}
+
+.course-content span {
+    flex: 1; /* text takes left space */
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.course-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-left: 10px;
+}
